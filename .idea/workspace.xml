@@ -9,21 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../SadiaProject/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SadiaProject/Generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Titan-Automation-Framework" beforeDir="false" afterPath="$PROJECT_DIR$/../Titan-Automation-Framework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebAutomation2018" beforeDir="false" afterPath="$PROJECT_DIR$/../WebAutomation2018" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/NBC-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/NBC-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebAutomationNov-2018/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -384,7 +370,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546711852607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546712834823" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -492,22 +478,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32762837" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42095914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42095914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
