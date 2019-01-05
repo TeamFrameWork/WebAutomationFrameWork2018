@@ -10,7 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
+<<<<<<< HEAD
         <module>NBC</module>
+=======
+        <module>Amazon</module>
+>>>>>>> fb39fac49d1da0c7619abb9c3657956175303b88
     </modules>
     <dependencies>
         <dependency>
