@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Generic" />
-        <module name="WebAutomationFrameWork2018" />
+        <module name="NBC" />
       </profile>
     </annotationProcessing>
   </component>
