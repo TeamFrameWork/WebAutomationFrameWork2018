@@ -9,7 +9,15 @@
         <module name="Amazon" />
         <module name="Generic" />
         <module name="NBC" />
+        <module name="Twitter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="NBC" target="1.8" />
+      <module name="Twitter" target="1.8" />
+      <module name="WebAutomationNov2018" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
