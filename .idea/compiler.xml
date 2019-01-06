@@ -9,6 +9,7 @@
         <module name="Amazon" />
         <module name="Generic" />
         <module name="NBC" />
+        <module name="Twitter" />
       </profile>
     </annotationProcessing>
   </component>

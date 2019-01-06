@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>NBC</module>
         <module>Amazon</module>
+        <module>Twitter</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8 </project.build.sourceEncoding>
