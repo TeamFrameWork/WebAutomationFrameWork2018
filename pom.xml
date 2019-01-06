@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>NBC</module>
         <module>Amazon</module>
+        <module>CitiBank</module>
 
     </modules>
     <properties>
