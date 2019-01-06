@@ -13,7 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
       <module name="CitiBank" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="NBC" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
