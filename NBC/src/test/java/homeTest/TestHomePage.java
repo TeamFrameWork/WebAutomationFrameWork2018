@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 
 public class TestHomePage extends HomePage {
 HomePage homePage;
-// @BeforeMethod
-// public void initialization(){ homePage= PageFactory.initElements(driver,HomePage.class);
-//     setUp("https://www.nbc.com/");
-//     }
+ @BeforeMethod
+ public void initialization(){ homePage= PageFactory.initElements(driver,HomePage.class);
+     setUp("https://www.nbc.com/");
+     }
 
 
     @Test
