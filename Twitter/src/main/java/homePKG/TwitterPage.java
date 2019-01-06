@@ -8,5 +8,6 @@ public class TwitterPage extends CommonAPI {
     public void typeOnCssButton(String locator) {
         super.typeOnCssButton(locator);
         // made change
+        System.out.println("hi");
     }
 }
