@@ -30,14 +30,11 @@ public class ConnectToSqlDB {
 
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
-//        String driverClass = prop.getProperty("MYSQLJDBC.driver");
-//        String url = prop.getProperty("MYSQLJDBC.url");
-//        String userName = prop.getProperty("MYSQLJDBC.userName");
-//        String password = prop.getProperty("MYSQLJDBC.password");
-//        Class.forName(driverClass);
-        String url = "jdbc:mysql://localhost:3306/pnt?serverTimezone=UTC&useSSL=false";
-        String userName = "root";
-        String password = "sad123";
+        String driverClass = prop.getProperty("MYSQLJDBC.driver");
+        String url = prop.getProperty("MYSQLJDBC.url");
+        String userName = prop.getProperty("MYSQLJDBC.userName");
+        String password = prop.getProperty("MYSQLJDBC.password");
+        Class.forName(driverClass);
         connect = DriverManager.getConnection(url,userName,password);
         System.out.println("Database is connected");
         return connect;
