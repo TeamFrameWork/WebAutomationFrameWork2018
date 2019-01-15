@@ -15,9 +15,11 @@
         <module>CitiBank</module>
 
     </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8 </project.build.sourceEncoding>
     </properties>
+    <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -43,6 +45,7 @@
 
 
     </dependencies>
+</dependencyManagement>
 <build>
     <plugins>
         <plugin>

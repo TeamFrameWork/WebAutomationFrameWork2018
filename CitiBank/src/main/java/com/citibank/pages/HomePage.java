@@ -1,17 +1,18 @@
 package com.citibank.pages;
 import Base.CommonAPI;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import static org.testng.Reporter.clear;
+
 public class HomePage extends CommonAPI {
- @FindBy(xpath="//input[@id='usernameMasked'and @class=' form-control userMask']")
+ @FindBy(id="#name")
     public static WebElement username;
  @FindBy(id="#password")
     public static WebElement password;
  @FindBy(id="#signInBtn")
-    public static WebElement signInButton;
- @FindBy(xpath = "/html/body/div[3]/div[2]/header/div[2]/div/div/ul/li/a")
+    public static WebElement signIn;
+ @FindBy(linkText = "Sign On")
     public static WebElement log;
  @FindBy(id="#rememberUidLabel")
     public static WebElement rememberMyUserId;
@@ -27,37 +28,35 @@ public class HomePage extends CommonAPI {
     public static WebElement citiGold;
  @FindBy(xpath = "/html/body/header/div[1]/div/div/ul/li[1]/a")
     public static WebElement findATMOrBranch;
+    @FindBy(xpath = "/html[1]/body[1]/header[1]/nav[1]/div[1]/a[1]/div[1]")
+    public static WebElement brand;
+
+    public void checkbrand(){
+        brand.click();
+    }
     public  void login(){
-        driver.findElement(By.id("username")).sendKeys("Daru");
-        driver.findElement(By.id("password")).sendKeys("abc21");
-        driver.findElement(By.id("signInButton")).click();
+        //log.click();
+        username.sendKeys("Daru");
+        password.sendKeys("abc21");
+        signIn.click();
     }
     public void citiGoldAccount(){
-        driver.findElement(By.xpath("citiGold")).click();
-    }
-    public HomePage() {
-        PageFactory.initElements(driver, this);
+        citiGold.click();
     }
     public void findATMOrBranch(){
-        driver.findElement(By.xpath("findATMOrBranch")).click();
+        findATMOrBranch.click();
     }
     public void creditCards(){
-        driver.findElement(By.linkText("creditCards")).click();
+        creditCards.click();
     }
-    public String validateHomePageTitle()
-    {
-        String title = driver.getTitle();
-        return title;
-    }
+   // public String validateHomePageTitle() { }
     public void banking(){
-        driver.findElement(By.xpath("bankingLink;")).click();
+        bankingLink.click();
     }
     public void clearField(String locator){
-        driver.findElement(By.id(locator)).clear();
+         clear();
    }
-   public void navigateBack(){
-        driver.navigate().back();
-   }
+
 }
 
 
