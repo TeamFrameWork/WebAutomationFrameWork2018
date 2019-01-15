@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24072421-b9ce-4071-ae70-d9c4bebb8341" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/BankingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/CitigoldPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/CreditCardsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/InvestingInsightsAndTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/InvestingWithCiti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/InvestingYourFinancialGoals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/LendingHomeEquity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/LendingMortgage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/LendingPersonalLoanAndCredit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/util/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/TestHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/TestLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/geckodriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/CitiBank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/CitiBank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/citiSearch/CitiMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testPackage/RunTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CitiBank/citiSearch/CitiMainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/CitiBank/testPackage/RunTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
@@ -47,44 +23,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1552#1553#0" expanded="true" />
                 <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1575#1576#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#2155#2156#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2282#2283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#1312#1313#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,11 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="36">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/config/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -195,10 +172,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="40" />
-    <option name="width" value="987" />
-    <option name="height" value="533" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1024" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,6 +237,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="citibank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWork2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citibank" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWork2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citibank" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWork2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citibank" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationFrameWork2018" type="b2602c69:ProjectViewProjectNode" />
@@ -330,6 +336,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,7 +344,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547420741755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547497433461" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -453,8 +460,8 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.TestHomePage" />
-      <item itemvalue="TestNG.TestHomePage.citiLogoImageTest" />
       <item itemvalue="TestNG.TestHomePage.loginPageTitle" />
+      <item itemvalue="TestNG.TestHomePage.citiLogoImageTest" />
       <item itemvalue="TestNG.TestHomePage.loginTest" />
       <item itemvalue="TestNG.TestHomePage.testBanking" />
     </list>
@@ -531,10 +538,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="640" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1024" height="555" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13378906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25254583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -549,9 +555,9 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969433" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4038877" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32969433" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -776,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-126">
@@ -790,13 +789,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -810,16 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/RunTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/RunTest.java" />
     <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -827,52 +810,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/com/citibank/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1552#1553#0" expanded="true" />
             <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2282#2283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/com/citibank/testcases/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
