@@ -20,6 +20,19 @@ public class HomePage extends LogInPage{
     public static WebElement selectByName;
     @FindBy(xpath = "//input[@id='search-query']")
     public static WebElement searchtwitter;
+    @FindBy(xpath="//span[@class='search-icon js-search-action']")
+    public static WebElement searchButton;
+    @FindBy(xpath="//*[@id=\"page-container\"]/div[1]/div[2]/div/ul/li[3]/a")
+    public static WebElement peopleTab;
+    @FindBy(xpath = "//a[@href='/SharifAlamgir']")
+    public static WebElement peopleToChoose;
+    @FindBy(xpath = "//*[@id=\"page-container\"]/div[1]/div/div[2]/div/div/div[2]/div/div/ul/li[5]/div/div/span[2]/button[1]")
+    public static WebElement followButton;
+    @FindBy(xpath ="//span[@data-original-title='10:18 PM - 21 Aug 2015']")
+    public static WebElement joinedDate;
+    @FindBy(xpath="//*[@id=\"page-container\"]/div[1]/div/div[2]/div/div/div[2]/div/div/ul/li[5]/div/div/span[2]/button[2]")
+    public static WebElement followingButton;
+
 
 
     public void clickOnHOmeIcon(){
@@ -43,7 +56,33 @@ public class HomePage extends LogInPage{
     }
 
     public void searchPeopleByName(){
-    searchtwitter.clear();
+    //searchtwitter.clear();
     searchtwitter.sendKeys("Sharif Alamgir",Keys.ENTER);
+        System.out.println("di it hit the enter button?");
     }
-}
+    public void clickOnSearchButton(){
+        searchButton.click();
+    }
+    public void clickOnPeopleTab(){
+        peopleTab.click();
+    }
+    public void choosePeopleToFolllow(){
+        peopleToChoose.click();
+    }
+    public void clickOnFollowButton(){
+        followButton.click();
+    }
+    public void readJoinDate(){
+        System.out.println(joinedDate.getAttribute("data-original-title"));
+    }
+    public void readTextFollowingButton(){
+        System.out.println(followingButton.getAttribute("linkedText"));
+    }
+    public void unFollowSharifAlamgir(){
+        followingButton.click();
+    }
+
+
+
+
+    }
