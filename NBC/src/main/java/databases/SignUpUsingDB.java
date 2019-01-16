@@ -21,7 +21,7 @@ public ArrayList<String> dataBaseData()
 
 }
 
-public void  createDataBaseAndTble() throws Exception {
+public void  signupUsingExcelData() throws Exception {
     dataBaseData();
  ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
  ConnectToSqlDB.connectToSqlDatabase();

@@ -23,7 +23,7 @@ public class TestSignUpDB extends CommonAPI {
 @Test
 public void signUpUsignDtatFromBD() throws Exception {
         homePage.clickOnsignUpButton();
-        signUpUsingDB.createDataBaseAndTble();
+        signUpUsingDB.signupUsingExcelData();
         signUpUsingDB.clickOnCheckBox();
         clickSubmitButton(SignUpPage.signInButtonInSignInPage);
 
