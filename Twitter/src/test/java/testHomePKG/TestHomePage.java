@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestHomePage extends CommonAPI {
     public HomePage homePage;
     public LogInPage logInPage;
@@ -28,19 +30,24 @@ public class TestHomePage extends CommonAPI {
         logInPage.enterPassWord();
         logInPage.UnCheckRememberMeButton();
         logInPage.clickOnLoginButtonAgain();
-        logInPage.clickOnHOmeIcon();
-        //logInPage.clickOnRefresh();
-        //homePage.clickOnViewAllTab();
-        //homePage.searchWhom2Follow();
-        //homePage.selectWhom2Follow();
+       /* logInPage.clickOnHOmeIcon();
+        logInPage.clickOnRefresh();
+        homePage.clickOnViewAllTab();
+        homePage.searchWhom2Follow();
+        homePage.selectWhom2Follow();*/
         homePage.searchPeopleByName();
-       // homePage.clickOnSearchButton();
+        //homePage.clickOnSearchButton();
         homePage.clickOnPeopleTab();
         homePage.choosePeopleToFolllow();
         homePage.clickOnFollowButton();
         //homePage.readJoinDate();
+        //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         homePage.unFollowSharifAlamgir();
         //homePage.readTextFollowingButton();
+        //homePage.clickOnHOmeIcon();
+
+        homePage.logOut();
+
 
 
 

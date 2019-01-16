@@ -9,7 +9,7 @@ public class HomePage extends LogInPage{
     @FindBy(id = "global-nav-home")
     //@FindBy(xpath="//li[@class=\"home active\"]//a[@class=\"js-nav js-tooltip js-dynamic-tooltip\"]")
     public static WebElement homeIcon;
-    @FindBy(css= "button[class='btn-link js-refresh-suggestions']")
+    @FindBy(xpath= "//li[@id='global-nav-home']//a[@class='js-nav js-tooltip js-dynamic-tooltip']")
     //@FindBy(xpath = "//button[@class=‘btn-link js-refresh-suggestions’]")
     public static WebElement refreshButton;
     @FindBy(linkText = "View all")
@@ -32,6 +32,11 @@ public class HomePage extends LogInPage{
     public static WebElement joinedDate;
     @FindBy(xpath="//*[@id=\"page-container\"]/div[1]/div/div[2]/div/div/div[2]/div/div/ul/li[5]/div/div/span[2]/button[2]")
     public static WebElement followingButton;
+    @FindBy(xpath ="//a[@id=\"user-dropdown-toggle\"]")
+    public static WebElement profileAndSettings;
+    @FindBy(xpath = "//li[@id=\"signout-button\"]//button")
+    public static WebElement logOutButton;
+
 
 
 
@@ -56,7 +61,7 @@ public class HomePage extends LogInPage{
     }
 
     public void searchPeopleByName(){
-    //searchtwitter.clear();
+    searchtwitter.clear();
     searchtwitter.sendKeys("Sharif Alamgir",Keys.ENTER);
         System.out.println("di it hit the enter button?");
     }
@@ -81,6 +86,13 @@ public class HomePage extends LogInPage{
     public void unFollowSharifAlamgir(){
         followingButton.click();
     }
+    public void logOut(){
+        homeIcon.click();
+        profileAndSettings.click();
+        logOutButton.click();
+    }
+
+
 
 
 
