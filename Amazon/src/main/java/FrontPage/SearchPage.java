@@ -1,12 +1,9 @@
 package FrontPage;
 import Base.CommonAPI;
-import com.google.errorprone.annotations.FormatMethod;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.testng.annotations.Test;
 
 public class SearchPage extends CommonAPI {
     @FindBy(how = How.XPATH,using = "//input[@id='twotabsearchtextbox']" )
