@@ -18,6 +18,8 @@ public class HomePage extends LogInPage{
     public static WebElement searchInput;
     @FindBy(xpath = "//a[contains(text(),'Sadia sehil') and @class='fullname ProfileNameTruncated-link u-textInheritColor js-nav']")
     public static WebElement selectByName;
+    @FindBy(xpath = "//input[@id='search-query']")
+    public static WebElement searchtwitter;
 
 
     public void clickOnHOmeIcon(){
@@ -39,4 +41,9 @@ public class HomePage extends LogInPage{
     public void selectWhom2Follow(){
         selectByName.click();
     }
+
+    public void searchPeopleByName(){
+    searchtwitter.clear();
+    searchtwitter.sendKeys("Sharif Alamgir",Keys.ENTER);
     }
+}

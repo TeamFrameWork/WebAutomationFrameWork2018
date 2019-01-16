@@ -1,3 +1,4 @@
+/*
 
 package databases;
 
@@ -12,9 +13,11 @@ import org.seleniumhq.jetty9.server.Authentication;
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 /**
  * Created by mrahman on 09/09/18.
- */
+ *//*
+
 
 public class ConnectToMongoDB {
 
@@ -104,4 +107,4 @@ public class ConnectToMongoDB {
             System.out.println(person.getStName()+ " "+ person.getStID());
         }
     }
-}
+}*/

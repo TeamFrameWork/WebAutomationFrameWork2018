@@ -1,3 +1,4 @@
+/*
 package databases;
 
 import java.io.FileInputStream;
@@ -8,9 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+*/
 /**
  * Created by mrahman on 04/02/18.
- */
+ *//*
+
 
 public class ConnectToSqlDB {
 
@@ -235,4 +238,4 @@ public class ConnectToSqlDB {
             System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
         }
     }
-}
+}*/

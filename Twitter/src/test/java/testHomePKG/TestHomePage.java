@@ -8,8 +8,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestHomePage extends CommonAPI {
-    HomePage homePage;
-    LogInPage logInPage;
+    public HomePage homePage;
+    public LogInPage logInPage;
     @BeforeMethod
     public void initializeLogInPage(){logInPage= PageFactory.initElements(driver, LogInPage.class);}
     @BeforeMethod
@@ -25,14 +25,14 @@ public class TestHomePage extends CommonAPI {
         logInPage.clickOnHOmeIcon();
         logInPage.clickOnRefresh();
         homePage.clickOnViewAllTab();
-        logInPage.searchWhom2Follow();
-        logInPage.selectWhom2Follow();
+        homePage.searchWhom2Follow();
+        homePage.selectWhom2Follow();
     }
-    /*@Test
-    public void followOthers(){
+    //@Test
+    /*public void followOthers(){
         homePage.clickOnHOmeIcon();
         homePage.clickOnRefresh();
         homePage.clickOnViewAllTab();
-        homePage.searchWhom2Follow();
-    }*/
+        homePage.searchWhom2Follow();*/
     }
+

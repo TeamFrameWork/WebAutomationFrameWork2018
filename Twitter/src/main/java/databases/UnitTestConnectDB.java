@@ -1,3 +1,4 @@
+/*
 package databases;
 
 import java.io.IOException;
@@ -9,3 +10,4 @@ public class UnitTestConnectDB {
         ConnectToSqlDB.connectToSqlDatabase();
     }
 }
+*/

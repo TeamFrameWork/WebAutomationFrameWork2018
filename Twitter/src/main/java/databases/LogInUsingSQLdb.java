@@ -1,3 +1,4 @@
+/*
 
 package databases;
 
@@ -11,4 +12,4 @@ public class UnitTestConnectDB {
         ConnectToSqlDB.connectToSqlDatabase();
 
     }
-}
+}*/

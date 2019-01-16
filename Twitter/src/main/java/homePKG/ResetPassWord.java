@@ -111,7 +111,8 @@ public class ResetPassWord {
         System.out.println("page Header check your Email is Displayed? "+pgHeaderChkYrEmalisExist.isDisplayed());
     }
     public void contactSupport(){
-        System.out.println("contact support link is clicked");
-        contactSupportLink.click();
+        contactSupportLink.isDisplayed();
+        //System.out.println("contact support link is clicked");
+        //contactSupportLink.click();
     }
     }

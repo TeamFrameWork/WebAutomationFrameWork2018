@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class TestResetPassWord extends CommonAPI {
     ResetPassWord reSetPassWord;
     @BeforeMethod
-    public void initialization (){reSetPassWord= PageFactory.initElements(driver, ResetPassWord.class);
+    public void initializeResetPW (){reSetPassWord= PageFactory.initElements(driver, ResetPassWord.class);
     }
     @Test
     public void goToLogin(){
