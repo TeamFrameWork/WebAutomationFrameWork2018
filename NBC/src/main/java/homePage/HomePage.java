@@ -37,8 +37,7 @@ public class HomePage {
     @FindBy(how=How.CSS,using = "a[href='/sign-up']")
     public static  WebElement signUpButton;
 
-    @FindBy(how=How.CSS,using = " a[href='/contact/general']")
-    public static  WebElement contactUs;
+
 
 
     public void  clickOnShowsPagelink(){ showsPage.click();}

@@ -1,24 +1,28 @@
-package homeTest;
+package footerPageTest;
 
 import Base.CommonAPI;
-import homePage.ContactUsPage;
+import footerPage.ContactUsPage;
+import footerPage.FooterPage;
 import homePage.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static footerPage.FooterPage.contactUs;
+
 public class TestContactUs extends CommonAPI {
     ContactUsPage contactUsPage;
-    HomePage homePage;
+
+    FooterPage footerPage;
     @BeforeMethod
-    public void initialization(){homePage= PageFactory.initElements(driver,HomePage.class);
+    public void initialization(){footerPage= PageFactory.initElements(driver,FooterPage.class);
     }
     @BeforeMethod
     public void initialization1(){contactUsPage= PageFactory.initElements(driver,ContactUsPage.class);
     }
     @Test
     public void contactUsPage(){
-        clickOnElement(HomePage.contactUs);
+        clickOnElement(contactUs);
         clickOnElement(ContactUsPage.options);
         clickOnElement((ContactUsPage.option1));
         clickOnElement(ContactUsPage.options1);
