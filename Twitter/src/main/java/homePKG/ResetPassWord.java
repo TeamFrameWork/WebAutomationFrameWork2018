@@ -8,9 +8,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.net.PortUnreachableException;
 
-public class ResetPassWord {
-    @FindBy(linkText = "Log in")
-    public static WebElement loginButton1;
+public class ResetPassWord extends CommonAPI {
+    /*
     @FindBy(css="Input[class='js-username-field email-input js-initial-focus']")
     public static WebElement userNameField;
     @FindBy(css="input[class='js-password-field']")
@@ -114,5 +113,5 @@ public class ResetPassWord {
         contactSupportLink.isDisplayed();
         //System.out.println("contact support link is clicked");
         //contactSupportLink.click();
-    }
+    }*/
     }

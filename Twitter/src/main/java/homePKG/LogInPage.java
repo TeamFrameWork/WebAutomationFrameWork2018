@@ -1,17 +1,14 @@
 package homePKG;
 
+import Base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-    public class LogInPage extends ResetPassWord {
-    @FindBy(xpath = " //a[@data-original-title='Profile and settings']")
-    public static WebElement profileNsettingsIcon;
+    public class LogInPage {/*
     @FindBy(id = "global-nav-home")
-    //@FindBy(xpath="//li[@class=\"home active\"]//a[@class=\"js-nav js-tooltip js-dynamic-tooltip\"]")
     public static WebElement homeIcon;
     @FindBy(css= "button[class='btn-link js-refresh-suggestions']")
-    //@FindBy(xpath = "//button[@class=‘btn-link js-refresh-suggestions’]")
     public static WebElement refreshButton;
     @FindBy(linkText = "View all")
     public static WebElement viewAllTab;
@@ -20,11 +17,14 @@ import org.openqa.selenium.support.FindBy;
     @FindBy(xpath = "//a[contains(text(),'Sadia sehil') and @class='fullname ProfileNameTruncated-link u-textInheritColor js-nav']")
     public static WebElement selectByName;
 
-
-    public void clickOnProfileNsettingsIcon(){
-        profileNsettingsIcon.click();
-        System.out.println("Logout Button Clicked to Logout from the Account");
+    public void logInToTwitter(){
+        loginButton1.click();
+        userNameField.sendKeys("palash.us@live.com");
+        passWordFiled.sendKeys("!tweetMe");
+        loginButton2.click();
     }
+
+
     public void clickOnHOmeIcon(){
         System.out.println("Home Icon is clicked");
         homeIcon.click();
@@ -56,7 +56,8 @@ import org.openqa.selenium.support.FindBy;
     System.out.println("PassWord Entered");
     passWordFiled.clear();
     passWordFiled.sendKeys("!tweetMe");
-    }
+    }*/
+
     }
 
 

@@ -1,3 +1,4 @@
+/*
 package testHomePKG;
 
 import Base.CommonAPI;
@@ -31,3 +32,4 @@ public class TestResetPassWord extends CommonAPI {
         reSetPassWord.contactSupport();
     }
     }
+*/

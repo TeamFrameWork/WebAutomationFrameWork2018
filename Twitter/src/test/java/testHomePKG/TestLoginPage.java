@@ -1,3 +1,4 @@
+/*
 package testHomePKG;
 import Base.CommonAPI;
 import homePKG.HomePage;
@@ -7,10 +8,17 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class TestLoginPage extends CommonAPI {
     LogInPage logInPage;
-    //HomePage homePage;
+
     @BeforeMethod
     public void initializeLogInPage(){logInPage= PageFactory.initElements(driver, LogInPage.class);
     }
+
+    @Test
+    public void logInToTwitterAccount(){
+        logInPage.logInToTwitter();
+    }
+
+
     @Test
     public void loginToMyAccount(){
         logInPage.clickOnLoginButton();
@@ -21,7 +29,7 @@ public class TestLoginPage extends CommonAPI {
         //logInPage.clickOnProfileNsettingsIcon();
         }
 
- /*   @Test
+    @Test
     public void goToHomePageByLogin() {
         logInPage.clickOnLoginButton();
         logInPage.UnCheckRememberMeButton();
@@ -35,8 +43,9 @@ public class TestLoginPage extends CommonAPI {
         homePage.searchWhom2Follow();
         homePage.searchWhom2Follow();
         homePage.selectWhom2Follow();
-        }*/
+        }
 
     }
 
 
+*/
