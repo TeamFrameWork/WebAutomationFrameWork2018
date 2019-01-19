@@ -1,6 +1,7 @@
 package homePKG;
 
 import Base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -15,7 +16,6 @@ public class HomePage extends CommonAPI {
     public static WebElement userNameField;
     @FindBy(css="input[class='js-password-field']")
     public static WebElement passWordFiled;
-    public void enterUserName(){userNameField.sendKeys("palash");}
 
     @FindBy(xpath="//label[@class=\"t1-label remember\"]//input[@name=\"remember_me\"]")
     public static WebElement chkBoxRememberMe;
@@ -339,6 +339,8 @@ public class HomePage extends CommonAPI {
         loginButton2.click();
     }
 
+    public void enterUserName(String username){userNameField.sendKeys(username, Keys.ENTER);}
+    public void enterPassword(String password){passWordFiled.sendKeys(password, Keys.ENTER);}
 
 
 
