@@ -25,6 +25,11 @@ public class testTodaysDeal extends TodaysDeal {
         TodaysDeal todaysDeal = PageFactory.initElements(driver,TodaysDeal.class);
         todaysDeal.clickOnCupon();
     }
+    @Test
+    public void coupons(){
+        TodaysDeal todaysDeal = PageFactory.initElements(driver,TodaysDeal.class);
+        todaysDeal.clickOnCupon();
+    }
 
 
 }
