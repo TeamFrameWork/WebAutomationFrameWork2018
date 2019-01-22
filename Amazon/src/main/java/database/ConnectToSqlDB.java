@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Properties;
 
 public class ConnectToSqlDB {
+
     public static Connection connect = null;
     public static Statement statement = null;
     public static PreparedStatement ps = null;
@@ -16,7 +17,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("C:\\Users\\farha\\Desktop\\WebAutomationFrameWork2018\\Amazon\\secret.properties");
+        InputStream ism = new FileInputStream("C:\\Users\\farha\\Desktop\\WebAutomationFrameWork2018\\Amazon\\dbsecret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -24,12 +25,12 @@ public class ConnectToSqlDB {
 
 
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
-        // Properties prop = loadProperties();
-        String driverClass = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/userpnt?serverTimezone=UTC&useSSL=false";
-        String userName =  "root";
-        String password = "farhanamoni91";
-        // Class.forName(driverClass);
+        Properties prop = loadProperties();
+        String driverClass = prop.getProperty("MYSQLJDBC.driver");
+        String url = prop.getProperty("MYSQLJDBC.url");
+        String userName = prop.getProperty("MYSQLJDBC.userName");
+        String password = prop.getProperty("MYSQLJDBC.password");
+        Class.forName(driverClass);
         connect = DriverManager.getConnection(url,userName,password);
         System.out.println("Database is connected");
         return connect;
