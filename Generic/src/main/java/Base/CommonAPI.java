@@ -17,7 +17,7 @@ public class CommonAPI {
     public void setUp(@Optional("https://www.amazon.com") String url )
 
     {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\farha\\Documents\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\farha\\Desktop\\WebAutomationFrameWork2018\\Driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);

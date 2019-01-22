@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-public class testClass1 extends SearchPage {
+public class testSearchPage extends SearchPage {
     @Test
     public void clickOnLogo() {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
@@ -34,9 +34,10 @@ public class testClass1 extends SearchPage {
         searchPage.clickOnGiftCards();
     }
     @Test
-    public void clickOnLink() {
+    public void clickOnLink() throws InterruptedException {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.SingOn();
+        Thread.sleep(2000);
     }
     @Test
     public void hitOnTodaysDeal() {
@@ -62,6 +63,9 @@ public class testClass1 extends SearchPage {
     public void hitOnTakeALook() {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.hitOnTakeALook();
+        searchPage.hitOnSingButton();
+        searchPage.hitOnPassword();
+        searchPage.hitOnEnterButton();
     }
     @Test
     public void hitOnGlassOption() {

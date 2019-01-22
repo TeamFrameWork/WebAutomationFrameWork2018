@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Amazon" />
         <module name="Generic" />
         <module name="WebAutomationFrameWork2018" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NBC" target="1.8" />
+      <module name="secret" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
