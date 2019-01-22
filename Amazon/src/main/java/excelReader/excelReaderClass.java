@@ -1,6 +1,6 @@
 package excelReader;
 
-/*import com.google.common.collect.Table;
+import com.google.common.collect.Table;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -56,4 +56,4 @@ public class excelReaderClass {
         }
         return value.toString();
     }
-}*/
+}

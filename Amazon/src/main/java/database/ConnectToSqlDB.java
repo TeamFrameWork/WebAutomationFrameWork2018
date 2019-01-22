@@ -30,8 +30,8 @@ public class ConnectToSqlDB {
         String url = prop.getProperty("MYSQLJDBC.url");
         String userName = prop.getProperty("MYSQLJDBC.userName");
         String password = prop.getProperty("MYSQLJDBC.password");
-        Class.forName(driverClass);
-        connect = DriverManager.getConnection(url,userName,password);
+        //Class.forName(driverClass);
+       // connect = DriverManager.getConnection(url,userName,password);
         System.out.println("Database is connected");
         return connect;
     }

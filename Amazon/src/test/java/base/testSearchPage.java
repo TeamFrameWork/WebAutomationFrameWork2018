@@ -6,8 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class testSearchPage extends SearchPage {
+    SearchPage searchPage;
+    @BeforeMethod
+    public void initialization(){
+        searchPage= PageFactory.initElements(driver,SearchPage.class);
+        setUrl("https://www.amazon.com/");}
     @Test
     public void clickOnLogo() {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);

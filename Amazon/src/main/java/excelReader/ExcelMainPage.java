@@ -2,7 +2,7 @@ package excelReader;
 
 import java.io.IOException;
 
-/*public class ExcelMainPage {
+public class ExcelMainPage {
     public static void main(String[] args) throws IOException {
         String path = "C:\\Users\\farha\\Desktop\\WebAutomationFrameWork2018\\Amazon\\src\\main\\java\\excelReader\\FarhanaExcel.xls";
         excelReaderClass excelReaderClass = new excelReaderClass();
@@ -15,4 +15,4 @@ import java.io.IOException;
             }
         }
     }
-}*/
+}
