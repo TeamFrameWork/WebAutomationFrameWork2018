@@ -37,10 +37,7 @@ public class TestEpisodesPage extends CommonAPI {
             episodesPage.clickOnTodayVideos(list1.get(i));
             Thread.sleep(5000);
             driver.navigate().to("https://www.nbc.com/video");
-
-
         }
-
     }
     @Test
     public void GoToFullwidth(){

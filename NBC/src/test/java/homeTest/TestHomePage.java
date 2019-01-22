@@ -8,6 +8,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import static footerPage.FooterPage.contactUs;
 
@@ -16,16 +17,23 @@ HomePage homePage;
     @BeforeMethod
     public void initialization(){homePage=PageFactory.initElements(driver,HomePage.class);}
     @Test
-    public void goToPageShows() { homePage.clickOnShowsPagelink();
+    public void goToPageShows() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnShowsPagelink();
     }
     @Test
-    public void goToPageEpisodes() { homePage.clickOnEpisodesPageLink();
+    public void goToPageEpisodes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnEpisodesPageLink();
     }
     @Test
-    public void goToPageSchedule(){ homePage.clickOnSchedulePageLink();
+    public void goToPageSchedule(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.clickOnSchedulePageLink();
     }
     @Test
     public void goToPageNewAndSports() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.clickOnnewAndSportsPageLink();
     }
     @Test
@@ -45,7 +53,5 @@ HomePage homePage;
     @Test
     public void goToSignUpPage(){ homePage.clickOnsignUpButton();
     }
-
-
 
 }

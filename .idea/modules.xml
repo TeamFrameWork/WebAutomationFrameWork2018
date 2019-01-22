@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/NBC/NBC.iml" filepath="$PROJECT_DIR$/NBC/NBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestAPI/RestAPI.iml" filepath="$PROJECT_DIR$/RestAPI/RestAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twitter/Twitter.iml" filepath="$PROJECT_DIR$/Twitter/Twitter.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebAutomationFrameWork2018.iml" filepath="$PROJECT_DIR$/WebAutomationFrameWork2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebAutomationNov2018.iml" filepath="$PROJECT_DIR$/WebAutomationNov2018.iml" />

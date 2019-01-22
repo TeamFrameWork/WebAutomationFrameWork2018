@@ -13,6 +13,7 @@
         <module>NBC</module>
         <module>Amazon</module>
         <module>Twitter</module>
+        <module>RestAPI</module>
 
     </modules>
     <properties>

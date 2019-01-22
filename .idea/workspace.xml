@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca38f8-da0e-4ecf-83e4-fb1ad1cd7eab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="80a3ba75-141c-4c3b-9215-5314d599236f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/SimpleExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/Xls_Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/homePage/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/NBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/NBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/databases/UnitTestConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/databases/UnitTestConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/classes/databases/SignUpUsingDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/classes/databases/SignUpUsingDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/target/classes/databases/UnitTestConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/classes/databases/UnitTestConnectDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/target/classes/excelReader/ExcelMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/classes/excelReader/ExcelMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/classes/excelReader/ExcelReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/classes/homePage/ContactUsPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/target/classes/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/classes/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/dataBaseTest/TestSignUpDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/dataBaseTest/TestSignUpDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/excelReaderTest/SignUpUsignExcelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/target/classes/homePage/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/classes/homePage/SignUpPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/excelReaderTest/TestExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/excelReaderTest/TestExcelReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestContactUs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestSignUpPageUsingXmlReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestEpisodesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestEpisodesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAutomationFrameWork2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAutomationFrameWork2018.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/NBC/target/" />
@@ -32,6 +57,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/RestAPI/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,82 +69,80 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="85" />
-          <entry key="json" value="2" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="13" />
+          <entry key="exe" value="2" />
+          <entry key="geckodriver" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="123" />
+          <entry key="json" value="3" />
+          <entry key="name" value="1" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="85" />
-          <entry key="JSON" value="2" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="13" />
+          <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="123" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15232" />
+          <entry key="java" value="15556" />
           <entry key="properties" value="62" />
-          <entry key="xml" value="62" />
+          <entry key="xml" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15232" />
+          <entry key="JAVA" value="15556" />
           <entry key="Properties" value="62" />
-          <entry key="XML" value="62" />
+          <entry key="XML" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="16" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebAutomationNov2018" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/googleSheet/GoogleSheetReader.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="-836">
+              <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="31" column="151" selection-start-line="31" selection-start-column="151" selection-end-line="31" selection-end-column="151" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3016#3017#0" expanded="true" />
+                <element signature="e#3046#3047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,10 +158,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/footerPage/FooterPage.java">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="482">
+              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,10 +170,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReaderClass.java">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="20" column="134" selection-start-line="20" selection-start-column="134" selection-end-line="20" selection-end-column="134" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +182,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="39" column="24" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="63" />
+            <state relative-caret-position="274">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,14 +193,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/SignUpFromExcel.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="-170">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NBC/src/main/java/googleSheet/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -206,17 +262,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Twitter/src/main/java/homePKG/TwitterPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/ShowsPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/EpisodesPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestContactUs.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/NBC/src/test/java/dataProvider/SignUpUsignExcelReader.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Generic/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/eXcelReader1.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/SimpleExcel.java" />
@@ -235,25 +281,38 @@
         <option value="$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/SignUpUsingExcelData.java" />
         <option value="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/SignUpUsignExcelTest.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReaderClass.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/GoogleSheetReader/googleSheet.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java" />
         <option value="$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/databases/footerPage/FooterPage.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/databases/footerPage/FooterPages.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/footerPage/FooterPage.java" />
         <option value="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/FooterPageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/NBC/src/test/resources/secret.properties" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/googleSheet/GoogleSheetReader.java" />
-        <option value="$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java" />
         <option value="$PROJECT_DIR$/NBC/src/main/java/excelReader/SignUpFromExcel.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/databases/UnitTestConnectDB.java" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReaderClass.java" />
+        <option value="$PROJECT_DIR$/NBC/pom.xml" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/src/main/java/rest/AllEmployeeRestServices.java" />
+        <option value="$PROJECT_DIR$/RestAPI/src/main/java/rest/SingleEmployeeRestServices.java" />
+        <option value="$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java" />
+        <option value="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java" />
       </list>
     </option>
   </component>
@@ -266,7 +325,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RestAPI" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RestAPI" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -274,10 +343,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1455" />
-    <option name="y" value="15" />
-    <option name="width" value="1830" />
-    <option name="height" value="1600" />
+    <option name="x" value="75" />
+    <option name="y" value="20" />
+    <option name="width" value="1375" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,7 +354,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,6 +399,13 @@
             <path>
               <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
               <item name="NBC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,42 +443,6 @@
               <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
               <item name="NBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="excelReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="footerPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="googleSheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -430,98 +469,48 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="excelReaderTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="footerPageTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="googleSheetTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homeTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="NBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationNov2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationFrameWork2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547859306858" />
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548048325128" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../July2018MobileAutomation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.53592813" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\RestAPI\src\test" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\RestAPI\src\test\java" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\test\resources" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\main\resources" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\main\java\excelReader" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="java" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\src\main\resources" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\main\java\excelReader" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\browser-driver" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\src\main\java\utility" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="databases" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\test\resources" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\main\resources" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC\src\main\java\excelReader" />
-      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\NBC" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\src\main\java" />
       <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\browser-driver" />
+      <recent name="C:\Users\sadia\IdeaProjects\WebAutomationFrameWork2018\Generic\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSheetReaderTest.signuUpFromGoogleSheet">
+  <component name="RunManager" selected="TestNG.TestHomePage.goToPageShows">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="WebAutomationNov2018" />
       <option name="VM_PARAMETERS" />
@@ -584,17 +573,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FooterPageTest.GoToAccessibility" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NBC" />
+    <configuration name="C:/Users/sadia/IdeaProjects/WebAutomationFrameWork2018/RestAPI/src/test/resources/RestAPITestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAPI" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleEmployeeRestServices.callSingleEmployeeResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAPI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="footerPageTest.*" />
+          <option name="PATTERN" value="rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="footerPageTest" />
-      <option name="MAIN_CLASS_NAME" value="footerPageTest.FooterPageTest" />
-      <option name="METHOD_NAME" value="GoToAccessibility" />
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.SingleEmployeeRestServices" />
+      <option name="METHOD_NAME" value="callSingleEmployeeResources" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -602,43 +601,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FooterPageTest.goToContactUs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="footerPageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="footerPageTest" />
-      <option name="MAIN_CLASS_NAME" value="footerPageTest.FooterPageTest" />
-      <option name="METHOD_NAME" value="goToContactUs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="googleSheetTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="googleSheetTest" />
-      <option name="MAIN_CLASS_NAME" value="googleSheetTest.GoogleSheetReaderTest" />
-      <option name="METHOD_NAME" value="signuUpFromGoogleSheet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestContactUs.contactUsPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContactUs.contactUsPage1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NBC" />
       <extension name="coverage">
         <pattern>
@@ -648,7 +611,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="footerPageTest" />
       <option name="MAIN_CLASS_NAME" value="footerPageTest.TestContactUs" />
-      <option name="METHOD_NAME" value="contactUsPage" />
+      <option name="METHOD_NAME" value="contactUsPage1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -656,17 +619,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExcelReader.signUpUsingDataFromExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.goToPageShows" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelReaderTest.*" />
+          <option name="PATTERN" value="homeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="excelReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="excelReaderTest.TestExcelReader" />
-      <option name="METHOD_NAME" value="signUpUsingDataFromExcel" />
+      <option name="PACKAGE_NAME" value="homeTest" />
+      <option name="MAIN_CLASS_NAME" value="homeTest.TestHomePage" />
+      <option name="METHOD_NAME" value="goToPageShows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -718,22 +681,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSignUpPage.signInWithEmail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeTest" />
+      <option name="MAIN_CLASS_NAME" value="homeTest.TestSignUpPage" />
+      <option name="METHOD_NAME" value="signInWithEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.TestHomePage.goToPages" />
       <item itemvalue="TestNG.TestSignUpPageUsingXmlReader.testExcelReader" />
-      <item itemvalue="TestNG.TestExcelReader.signUpUsingDataFromExcel" />
-      <item itemvalue="TestNG.TestContactUs.contactUsPage" />
-      <item itemvalue="TestNG.FooterPageTest.goToContactUs" />
-      <item itemvalue="TestNG.FooterPageTest.GoToAccessibility" />
-      <item itemvalue="TestNG.GoogleSheetReaderTest.signuUpFromGoogleSheet" />
+      <item itemvalue="TestNG.SingleEmployeeRestServices.callSingleEmployeeResources" />
+      <item itemvalue="TestNG.C:/Users/sadia/IdeaProjects/WebAutomationFrameWork2018/RestAPI/src/test/resources/RestAPITestRunner.xml" />
+      <item itemvalue="TestNG.TestSignUpPage.signInWithEmail" />
+      <item itemvalue="TestNG.TestHomePage.goToPageShows" />
+      <item itemvalue="TestNG.TestContactUs.contactUsPage1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleSheetReaderTest.signuUpFromGoogleSheet" />
-        <item itemvalue="TestNG.FooterPageTest.GoToAccessibility" />
-        <item itemvalue="TestNG.FooterPageTest.goToContactUs" />
-        <item itemvalue="TestNG.TestContactUs.contactUsPage" />
-        <item itemvalue="TestNG.TestExcelReader.signUpUsingDataFromExcel" />
+        <item itemvalue="TestNG.TestHomePage.goToPageShows" />
+        <item itemvalue="TestNG.TestContactUs.contactUsPage1" />
+        <item itemvalue="TestNG.TestSignUpPage.signInWithEmail" />
+        <item itemvalue="TestNG.SingleEmployeeRestServices.callSingleEmployeeResources" />
+        <item itemvalue="TestNG.C:/Users/sadia/IdeaProjects/WebAutomationFrameWork2018/RestAPI/src/test/resources/RestAPITestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -742,7 +723,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23ca38f8-da0e-4ecf-83e4-fb1ad1cd7eab" name="Default Changelist" comment="" />
+      <changelist id="80a3ba75-141c-4c3b-9215-5314d599236f" name="Default Changelist" comment="" />
       <created>1546803055536</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -751,61 +732,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FooterPageTest_GoToAccessibility - 2019.01.18 at 14h 26m 19s.xml">
-      <configuration name="FooterPageTest.GoToAccessibility" configurationId="TestNG" />
+    <history-entry file="C__Users_sadia_IdeaProjects_WebAutomationFrameWork2018_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.20 at 11h 58m 45s.xml">
+      <configuration name="C:/Users/sadia/IdeaProjects/WebAutomationFrameWork2018/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FooterPageTest_GoToAccessibility - 2019.01.18 at 14h 30m 11s.xml">
-      <configuration name="FooterPageTest.GoToAccessibility" configurationId="TestNG" />
+    <history-entry file="SingleEmployeeRestServices_callSingleEmployeeResources - 2019.01.20 at 18h 48m 57s.xml">
+      <configuration name="SingleEmployeeRestServices.callSingleEmployeeResources" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 13m 44s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestSignUpPage_signInWithEmail - 2019.01.20 at 19h 14m 57s.xml">
+      <configuration name="TestSignUpPage.signInWithEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 16m 35s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestSignUpPage_signInWithEmail - 2019.01.20 at 19h 16m 51s.xml">
+      <configuration name="TestSignUpPage.signInWithEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 25m 10s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestHomePage_goToPageShows - 2019.01.20 at 19h 19m 13s.xml">
+      <configuration name="TestHomePage.goToPageShows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 27m 08s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestHomePage_goToPageShows - 2019.01.20 at 19h 47m 08s.xml">
+      <configuration name="TestHomePage.goToPageShows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 27m 22s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestHomePage_goToPageShows - 2019.01.20 at 20h 05m 37s.xml">
+      <configuration name="TestHomePage.goToPageShows" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 29m 51s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestContactUs_contactUsPage1 - 2019.01.20 at 20h 51m 56s.xml">
+      <configuration name="TestContactUs.contactUsPage1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 32m 31s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestContactUs_contactUsPage1 - 2019.01.20 at 20h 57m 11s.xml">
+      <configuration name="TestContactUs.contactUsPage1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetReaderTest_signuUpFromGoogleSheet - 2019.01.18 at 19h 38m 04s.xml">
-      <configuration name="GoogleSheetReaderTest.signuUpFromGoogleSheet" configurationId="TestNG" />
+    <history-entry file="TestHomePage_goToPageShows - 2019.01.20 at 23h 43m 14s.xml">
+      <configuration name="TestHomePage.goToPageShows" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21295546" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8205805" visible="true" weight="0.38623482" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.17941953" side_tool="true" weight="0.24939272" />
+      <window_info id="Structure" order="7" weight="0.24939272" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4979757" weight="0.29662523" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49716598" visible="true" weight="0.3268206" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49716598" visible="true" weight="0.08348135" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.25044405" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959514" weight="0.3623446" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502834" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49959514" weight="0.3285968" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.089878544" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.089878544" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -846,136 +827,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/How.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/ShowsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/EpisodesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/dataProvider/SignUpUsignExcelReader.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/eXcelReader1.java" />
-    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/Xls_Reader.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/Student.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/User.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/UnitTestConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="99" column="48" lean-forward="true" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/SignUpUsingExcelData.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReader.java" />
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/SignUpExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/SignUpUsignExcelTest.java" />
     <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPageUsingXmlReader.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/SimpleExcel.java" />
     <entry file="file://$PROJECT_DIR$/NBC/src/main/java/GoogleSheetReader/GoogleSheetReader.java" />
@@ -986,98 +842,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6286#6287#0" expanded="true" />
-            <element signature="e#6305#6306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/footerPage/FooterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/client_secret.json">
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/SignUpFromExcel.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NBC/src/test/java/footerPageTest/FooterPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="123">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1085,10 +879,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java">
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-639">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/EpisodesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/ShowsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/homePage/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1182">
+          <caret line="27" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAutomationNov2018.iml" />
+    <entry file="file://$PROJECT_DIR$/Generic/browser-driver/geckodriver" />
+    <entry file="file://$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/UnitTestConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReaderClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1097,20 +975,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NBC/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/footerPage/FooterPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="410">
+          <caret line="89" column="21" selection-start-line="13" selection-start-column="3" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="43" selection-start-line="12" selection-start-column="3" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/AllEmployeeRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/footerPage/ContactUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/footerPageTest/TestContactUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/NBC/src/test/resources/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1121,57 +1116,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NBC/src/main/java/googleSheet/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestEpisodesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/ConnectToSqlDB.java">
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/googleSheetTest/GoogleSheetReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="31" column="151" selection-start-line="31" selection-start-column="151" selection-end-line="31" selection-end-column="151" />
+        <state relative-caret-position="187">
+          <caret line="20" column="134" selection-start-line="20" selection-start-column="134" selection-end-line="20" selection-end-column="134" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/excelReaderTest/TestExcelReader.java">
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/dataBaseTest/TestSignUpDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="39" column="24" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="63" />
+        <state relative-caret-position="261">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/ExcelReaderClass.java">
+    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/databases/SignUpUsingDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NBC/src/main/java/excelReader/SignUpFromExcel.java">
+    <entry file="file://$PROJECT_DIR$/NBC/src/test/java/homeTest/TestSignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="-170">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <element signature="e#3046#3047#0" expanded="true" />
           </folding>
         </state>
       </provider>

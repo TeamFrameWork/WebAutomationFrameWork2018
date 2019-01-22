@@ -37,9 +37,6 @@ public class HomePage {
     @FindBy(how=How.CSS,using = "a[href='/sign-up']")
     public static  WebElement signUpButton;
 
-
-
-
     public void  clickOnShowsPagelink(){ showsPage.click();}
     public void  clickOnEpisodesPageLink(){ episodesPage.click(); }
     public void  clickOnSchedulePageLink(){schedulePage.click(); }
@@ -49,13 +46,6 @@ public class HomePage {
     public void  clickOnLivePageLink(){ livePage.click();}
     public void  clickOnSearchButton(){ searchButton.click(); }
     public void  clickOnsignUpButton(){ signUpButton.click(); }
-    // signUp
-
-
-
-//    public  void  searchElement(){
-//        SearchElement.sendKeys("book", Keys.ENTER);
-//    }
 
 }
 

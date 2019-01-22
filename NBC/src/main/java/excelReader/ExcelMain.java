@@ -3,6 +3,7 @@ package excelReader;
 import java.io.IOException;
 
 public class ExcelMain {
+
     public  static void main (String [] args ) throws IOException {
         String path="C:\\Users\\sadia\\IdeaProjects\\WebAutomationFrameWork2018\\NBC\\src\\main\\java\\excelReader\\myFile1.xls";
         ExcelReaderClass excelReaderClass=new ExcelReaderClass();
@@ -16,4 +17,5 @@ public class ExcelMain {
         }
 
     }
+
 }

@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.sql.Time;
 import java.util.Set;
@@ -45,6 +46,7 @@ public class TestSignUpPage extends CommonAPI {
     }
     @Test
     public void signInWithEmail(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.clickOnsignUpButton();
         signUpPage.goToSignInPage();
         signUpPage.setEmailAddressForSignIn("sadiasehil89@gmail.com"); //c2FkaWExMjM=    c2FkaWExMjM=

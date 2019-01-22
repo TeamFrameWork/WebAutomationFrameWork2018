@@ -4,7 +4,9 @@ import Base.CommonAPI;
 import footerPage.ContactUsPage;
 import footerPage.FooterPage;
 import homePage.HomePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -33,5 +35,13 @@ public class TestContactUs extends CommonAPI {
         clickOnElement(ContactUsPage.technicalDescription);
         contactUsPage.setEmail(ContactUsPage.technicalDescription,"I am having truble with ........");
         clickSubmitButton(ContactUsPage.submitButton);
+    }
+    @Test
+    public void contactUsPage1(){
+        clickOnElement(contactUs);
+       // clickOnElement(ContactUsPage.act);
+        Select select = new Select(ContactUsPage.act );
+        select.deselectByIndex(1);
+
     }
 }

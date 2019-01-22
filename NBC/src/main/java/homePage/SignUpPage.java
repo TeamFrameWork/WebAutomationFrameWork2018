@@ -10,7 +10,7 @@ import java.util.Base64;
 import java.util.Set;
 
 public class SignUpPage extends CommonAPI {
-    //SignUp
+
     @FindBy(how= How.CSS,using ="input[id='signup-form__email']")
     public static WebElement emailAddressBox;
 
@@ -37,7 +37,6 @@ public class SignUpPage extends CommonAPI {
 
     @FindBy(how = How.CLASS_NAME,using = "signin-form__submit")
     public static WebElement signInButtonInSignInPage;
-
 
 
     public  void setEmailAddressForSignUp( String emailAddress){

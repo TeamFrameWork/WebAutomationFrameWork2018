@@ -31,6 +31,9 @@ public class ContactUsPage {
  @FindBy(how =How.CSS,using = "button[class='form-element__button form-element__button--active']")
  public static WebElement submitButton;
 
+ @FindBy(how =How.CLASS_NAME,using = "form-element__select")
+ public static WebElement act;
+
 
 
  public void setEmail(WebElement element, String email){

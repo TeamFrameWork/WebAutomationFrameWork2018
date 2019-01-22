@@ -30,8 +30,6 @@ public class TestExcelReader extends CommonAPI {
        }
            return testObject;
 
-
-
         }
     @Test(dataProvider = "getData")
     public void signUpUsingDataFromExcel(String UserEmail, String Password)
