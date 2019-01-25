@@ -29,7 +29,6 @@ public class TestSignUpPage extends CommonAPI {
     @BeforeMethod
     public void initialization1(){signUpPage= PageFactory.initElements(driver,SignUpPage.class);
   }
-
     @Test
     public void signUpWithEmail1(){
         homePage.clickOnsignUpButton();
@@ -66,7 +65,5 @@ public class TestSignUpPage extends CommonAPI {
                 System.out.println("you have an account already ");
                 signInWithEmail();
             }
-
-
     }
 }
