@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a3ba75-141c-4c3b-9215-5314d599236f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/java/homeTest/TestShowsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/src/test/resources/NBCTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/NBCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/NBCTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/footerPageTest/FooterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/footerPageTest/FooterPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestEpisodesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestEpisodesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestShowsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestShowsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestSignUpPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestSignUpPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestSignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NBC/target/test-classes/homeTest/TestSignUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/SingleEmployeeRestServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/SingleEmployeeRestServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/NBC/target/" />
     <ignored path="$PROJECT_DIR$/Twitter/target/" />
@@ -154,16 +139,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+            <state relative-caret-position="155">
+              <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NBC/Extent-Report/ExtentReport.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -534,7 +519,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548480869763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548483275803" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileAutomationNovember2018" />
@@ -835,8 +820,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2736842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2736842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -847,7 +833,7 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4979757" weight="0.29662523" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49716598" visible="true" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49716598" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -919,7 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/eXcelReader1.java" />
     <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1201,10 +1186,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NBC/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/SingleEmployeeRestServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        <state relative-caret-position="155">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
         </state>
       </provider>
     </entry>
