@@ -3,12 +3,15 @@ package homeTest;
 import Base.CommonAPI;
 import homePage.HomePage;
 import homePage.SignUpPage;
+import org.junit.Assert;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
+import java.util.concurrent.TimeUnit;
 
 import static footerPage.FooterPage.contactUs;
 
@@ -27,6 +30,9 @@ HomePage homePage;
     public void goToPageEpisodes() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.clickOnEpisodesPageLink();
+        String episodePage=driver.getCurrentUrl();
+        String actual="https://www.nbc.com/video1";
+        Assert.assertEquals(episodePage,actual);
     }
 
     @Test
@@ -39,11 +45,13 @@ HomePage homePage;
     public void goToPageNewAndSports() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.clickOnnewAndSportsPageLink();
+
     }
 
     @Test
     public void goToPageShop() {
         homePage.clickOnShopPageLink();
+
     }
 
     @Test

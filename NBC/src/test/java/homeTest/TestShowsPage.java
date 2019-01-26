@@ -19,6 +19,7 @@ public class TestShowsPage extends CommonAPI {
     @BeforeMethod
     public void initialization (){ showsPage = PageFactory.initElements(driver,ShowsPage.class);
     }
+
     @Test
     public void goToAmericasGotTalentPage(){
         homePage.clickOnShowsPagelink();
