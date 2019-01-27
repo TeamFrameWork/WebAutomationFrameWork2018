@@ -47,8 +47,8 @@ public class SingleEmployeeRestServices{
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("empName", "Orfatt Chowdhury");
-        jsonObject.put("empEmail", "orfatt11@gmail.com");
+        jsonObject.put("empName", "Sadia Sehil");
+        jsonObject.put("empEmail", "ssinf_1989@gmail.com");
         jsonObject.put("department", "Dev");
         request.body(jsonObject.toJSONString());
         Response response = request.put("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/5c4bd74c2fc21350f886bd80");
